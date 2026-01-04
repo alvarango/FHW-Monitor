@@ -1,65 +1,65 @@
-# FHW-Monitor: El Periférico de Salida
+# FHW-Monitor: Periférico de Salida
 
-Este repositorio contiene el trabajo de investigación sobre periféricos realizado para el módulo de **Fundamentos de Hardware**.
+Trabajo de investigación sobre el monitor como componente esencial del hardware.
 
 ---
 
 ## 1.- Definición del periférico
-Se considera periférico al conjunto de dispositivos que, sin pertenecer al núcleo fundamental de la computadora (formado por la CPU y la memoria central), permiten realizar operaciones de entrada/salida (E/S) complementarias al proceso de datos que realiza la CPU.
-
-El **monitor** es el periférico de salida principal que permite visualizar la información procesada.
+[cite_start]Un periférico es el conjunto de dispositivos que, sin pertenecer al núcleo fundamental de la computadora (CPU y memoria central), permiten realizar operaciones de entrada/salida (E/S) complementarias al proceso de datos. [cite_start]El **monitor** es el periférico de salida por excelencia, encargado de mostrar la información procesada al usuario[cite: 28].
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/640px-Von_Neumann_Architecture.svg.png" width="400" alt="Arquitectura Von Neumann">
-  <br>
-  <em>Arquitectura de Von Neumann: El núcleo (CPU+RAM) y sus periféricos.</em>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Monitor-1275363.jpg" width="450" alt="Monitor de ordenador">
 </p>
 
 ---
 
 ## 2.- Características principales
-* **Extracción de información:** Su función primordial es mostrar datos hacia el exterior.
-* **Interfaz Visual:** Es el puente de comunicación visual entre el ordenador y el usuario.
-* **Conectividad:** Se conecta a la placa base mediante puertos específicos (HDMI, DisplayPort, VGA).
-* **Independencia del núcleo:** Aunque es esencial para el uso humano, no forma parte de la CPU ni de la memoria RAM.
+Basándonos en la arquitectura de computadores, el monitor presenta las siguientes características clave:
+* [cite_start]**Independencia del núcleo:** No forma parte del núcleo fundamental (CPU + RAM).
+* [cite_start]**Operación de Salida:** Su función principal es extraer información hacia el exterior[cite: 28].
+* [cite_start]**Interfaz de E/S:** Se comunica con el sistema a través de una unidad de entrada/salida[cite: 17].
+* [cite_start]**Complementariedad:** Es necesario para visualizar los datos que procesa la CPU.
 
 ---
 
 ## 3.- Tipos
-Según la clasificación técnica de periféricos, el monitor se organiza de la siguiente manera:
+[cite_start]Dentro de la clasificación de periféricos, el monitor se cataloga según su flujo de datos[cite: 32]:
 
-* **Periférico de Salida:** El monitor estándar (LED, LCD, OLED).
-* **Periférico de Entrada/Salida (E/S):** Los monitores con **pantalla táctil**, que permiten introducir datos y verlos simultáneamente.
+1.  [cite_start]**Periférico de Salida:** Monitores estándar que solo muestran información (LED, LCD, OLED)[cite: 28].
+2.  [cite_start]**Periférico de Entrada/Salida (E/S):** Monitores con **pantalla táctil**, que permiten tanto ver la información como introducir datos con el dedo[cite: 29].
 
 <p align="center">
-  <img src="https://i.ibb.co/X3p9qXN/perifericos-mapa.png" width="500" alt="Clasificación Periféricos">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Classification_of_peripherals.svg/800px-Classification_of_peripherals.svg.png" width="500" alt="Clasificación de Periféricos">
 </p>
 
 ---
 
 ## 4.- Ejemplos comerciales
 
-| Modelo | Imagen | Características Principales |
-| :--- | :---: | :--- |
-| **Samsung Odyssey G5** | <img src="https://m.media-amazon.com/images/I/81S7V-LOD2L._AC_SL1500_.jpg" width="100"> | Monitor Gaming de 27", resolución 2K (QHD) y 144Hz de refresco. |
-| **Dell UltraSharp 4K** | <img src="https://m.media-amazon.com/images/I/719FvU-Vl1L._AC_SL1500_.jpg" width="100"> | Monitor profesional de 32", resolución 4K UHD y precisión de color para diseño. |
+| Modelo | Características Técnicas | Categoría |
+| :--- | :--- | :--- |
+| **Samsung Odyssey G5** | Pantalla curva de 27", resolución 2K y 144Hz. Ideal para fluidez de imagen. | Salida |
+| **Microsoft Surface Touch** | Monitor con tecnología táctil capacitiva y alta resolución para diseño interactivo. | Entrada/Salida (E/S) |
+| **Dell UltraSharp 4K** | Panel IPS con resolución 3840 x 2160, enfocado en la precisión de color profesional. | Salida |
 
 ---
 
 ## 5.- Conclusiones
-Los periféricos permiten que la potencia de cálculo del ordenador (CPU) sea accesible para nosotros. El monitor es la pieza clave para recibir esa información de forma instantánea y comprensible, evolucionando desde simples pantallas de texto hasta los complejos paneles táctiles de alta definición actuales.
+El monitor es el puente visual necesario para que el trabajo del núcleo del ordenador sea útil para el ser humano. Aunque la CPU y la RAM gestionen los datos, sin un periférico de salida como el monitor, los resultados del proceso de datos no podrían ser interpretados por el usuario.
 
 ---
 
-### Referencias
-* [cite_start]Material didáctico: **Fundamentos de Hardware (Ud 7 - Los periféricos)**. [cite: 1, 6]
-* Autor de la fuente: **Manuel Fco. [cite_start]Domínguez Tienda**. [cite: 1]
-* Definiciones técnicas basadas en la **Arquitectura de Von Neumann**. [cite: 21, 24]
+## Bibliografía y Referencias
+* **Definición técnica:** Basada en la Arquitectura de Von Neumann.
+* **Fuentes de imágenes:**
+    * Monitor Principal: [Wikimedia Commons - Monitor-1275363](https://commons.wikimedia.org)
+    * Diagrama de Clasificación: [Wikimedia Commons - Peripheral Classification](https://commons.wikimedia.org)
+* **Datos técnicos:** Especificaciones extraídas de portales oficiales de Samsung, Dell y Microsoft.
 
-### Licencia
-Este trabajo está bajo la licencia **MIT**.
+## Licencia
+Este repositorio se encuentra bajo la licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-### Autores
-* **Realizado por:** [Tu Nombre y Apellidos]
-* **Curso:** 1º Sistemas Informáticos / DAW / DAM
+## Autores
+* **Realizado por:** [Escribe aquí tu nombre]
+* **Asignatura:** Fundamentos de Hardware
 * **Centro:** IES Rodrigo Caro
