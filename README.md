@@ -1,35 +1,36 @@
-# FHW-Monitor: Periférico de Salida
+# FHW-Monitor: Dispositivos de Salida
 
-Trabajo de investigación sobre el monitor como componente esencial del hardware.
+Este repositorio contiene el trabajo sobre periféricos para la asignatura de **Fundamentos de Hardware**.
 
 ---
 
-## 1.- Definición del periférico
-[cite_start]Un periférico es el conjunto de dispositivos que, sin pertenecer al núcleo fundamental de la computadora (CPU y memoria central), permiten realizar operaciones de entrada/salida (E/S) complementarias al proceso de datos. [cite_start]El **monitor** es el periférico de salida por excelencia, encargado de mostrar la información procesada al usuario[cite: 28].
+## 1.- Definición del períférico
+Se considera periférico al conjunto de dispositivos que, sin pertenecer al núcleo fundamental de la computadora (CPU y memoria RAM), permiten realizar operaciones de entrada/salida (E/S) complementarias al proceso de datos. El **monitor** es el periférico de salida principal que permite al usuario ver los resultados del procesamiento.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Monitor-1275363.jpg" width="450" alt="Monitor de ordenador">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/800px-Von_Neumann_Architecture.svg.png" width="450" alt="Arquitectura Von Neumann">
+  <br>
+  <em>Arquitectura de Von Neumann: El núcleo central y sus periféricos de E/S.</em>
 </p>
 
 ---
 
 ## 2.- Características principales
-Basándonos en la arquitectura de computadores, el monitor presenta las siguientes características clave:
-* [cite_start]**Independencia del núcleo:** No forma parte del núcleo fundamental (CPU + RAM).
-* [cite_start]**Operación de Salida:** Su función principal es extraer información hacia el exterior[cite: 28].
-* [cite_start]**Interfaz de E/S:** Se comunica con el sistema a través de una unidad de entrada/salida[cite: 17].
-* [cite_start]**Complementariedad:** Es necesario para visualizar los datos que procesa la CPU.
+* **Extracción de datos:** Su función es mostrar información desde el ordenador hacia el exterior.
+* **Interfaz Visual:** Es el canal de comunicación visual entre la máquina y el usuario.
+* **Dependencia:** Se conecta a la CPU a través de la unidad de Entrada/Salida.
+* **Complementariedad:** Es un componente esencial para la interacción, pero externo al núcleo CPU+RAM.
 
 ---
 
 ## 3.- Tipos
-[cite_start]Dentro de la clasificación de periféricos, el monitor se cataloga según su flujo de datos[cite: 32]:
+Según la clasificación de periféricos, el monitor se divide en:
 
-1.  [cite_start]**Periférico de Salida:** Monitores estándar que solo muestran información (LED, LCD, OLED)[cite: 28].
-2.  [cite_start]**Periférico de Entrada/Salida (E/S):** Monitores con **pantalla táctil**, que permiten tanto ver la información como introducir datos con el dedo[cite: 29].
+1.  **Periférico de Salida:** El monitor convencional (LED, LCD, OLED) que solo extrae información.
+2.  **Periférico de Entrada/Salida (E/S):** Los **monitors táctiles**, que permiten tanto visualizar información como introducir datos.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Classification_of_peripherals.svg/800px-Classification_of_peripherals.svg.png" width="500" alt="Clasificación de Periféricos">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Monitor-1275363.jpg/640px-Monitor-1275363.jpg" width="400" alt="Monitor Moderno">
 </p>
 
 ---
@@ -38,28 +39,25 @@ Basándonos en la arquitectura de computadores, el monitor presenta las siguient
 
 | Modelo | Características Técnicas | Categoría |
 | :--- | :--- | :--- |
-| **Samsung Odyssey G5** | Pantalla curva de 27", resolución 2K y 144Hz. Ideal para fluidez de imagen. | Salida |
-| **Microsoft Surface Touch** | Monitor con tecnología táctil capacitiva y alta resolución para diseño interactivo. | Entrada/Salida (E/S) |
-| **Dell UltraSharp 4K** | Panel IPS con resolución 3840 x 2160, enfocado en la precisión de color profesional. | Salida |
+| **Samsung Odyssey G5** | Pantalla de 27 pulgadas, resolución 2K y 144Hz de refresco. Diseñado para alta fluidez. | Salida |
+| **Dell UltraSharp 4K** | Panel profesional de 32 pulgadas con resolución Ultra HD. Gran precisión de color. | Salida |
+| **Microsoft Surface Studio** | Pantalla táctil interactiva de alta resolución con soporte para lápiz óptico. | Entrada/Salida (E/S) |
 
 ---
 
 ## 5.- Conclusiones
-El monitor es el puente visual necesario para que el trabajo del núcleo del ordenador sea útil para el ser humano. Aunque la CPU y la RAM gestionen los datos, sin un periférico de salida como el monitor, los resultados del proceso de datos no podrían ser interpretados por el usuario.
+Los periféricos son piezas clave para que el núcleo del ordenador (CPU y RAM) sea útil para las personas. El monitor destaca como la herramienta de salida más importante, permitiendo transformar los datos binarios en imágenes comprensibles. Con la llegada de las pantallas táctiles, este periférico ha evolucionado hasta convertirse también en una herramienta de entrada.
 
 ---
 
 ## Bibliografía y Referencias
-* **Definición técnica:** Basada en la Arquitectura de Von Neumann.
-* **Fuentes de imágenes:**
-    * Monitor Principal: [Wikimedia Commons - Monitor-1275363](https://commons.wikimedia.org)
-    * Diagrama de Clasificación: [Wikimedia Commons - Peripheral Classification](https://commons.wikimedia.org)
-* **Datos técnicos:** Especificaciones extraídas de portales oficiales de Samsung, Dell y Microsoft.
+* **Información técnica:** Basada en la arquitectura de computadores de Von Neumann.
+* **Imágenes:** Enlaces externos de Wikimedia Commons y catálogos comerciales.
 
 ## Licencia
-Este repositorio se encuentra bajo la licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Este proyecto se distribuye bajo la licencia **MIT**.
 
 ## Autores
-* **Realizado por:** [Escribe aquí tu nombre]
-* **Asignatura:** Fundamentos de Hardware
+* **Realizado por:** [PON AQUÍ TU NOMBRE]
+* **Curso:** 1º Sistemas Informáticos / DAW
 * **Centro:** IES Rodrigo Caro
