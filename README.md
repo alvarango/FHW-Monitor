@@ -1,56 +1,65 @@
-# FHW-Monitor
+# FHW-Monitor: El Periférico de Salida
 
-Trabajo de investigación sobre periféricos para la asignatura de **Fundamentos de Hardware**.
+Este repositorio contiene el trabajo de investigación sobre periféricos realizado para el módulo de **Fundamentos de Hardware**.
+
+---
 
 ## 1.- Definición del periférico
-[cite_start]Un periférico es el conjunto de dispositivos que, sin pertenecer al núcleo fundamental de la computadora (CPU y memoria central), permiten realizar operaciones de entrada/salida (E/S) complementarias al proceso de datos[cite: 24]. [cite_start]El monitor es un periférico de salida que extrae información hacia el exterior del ordenador[cite: 28].
+Se considera periférico al conjunto de dispositivos que, sin pertenecer al núcleo fundamental de la computadora (formado por la CPU y la memoria central), permiten realizar operaciones de entrada/salida (E/S) complementarias al proceso de datos que realiza la CPU.
 
-[cite_start]En la arquitectura de Von Neumann, el monitor se conecta a través de la unidad de E/S para comunicarse con el núcleo (CPU + RAM)[cite: 9, 20].
+El **monitor** es el periférico de salida principal que permite visualizar la información procesada.
 
-![Esquema Arquitectura Von Neumann](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/300px-Von_Neumann_Architecture.svg.png)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/640px-Von_Neumann_Architecture.svg.png" width="400" alt="Arquitectura Von Neumann">
+  <br>
+  <em>Arquitectura de Von Neumann: El núcleo (CPU+RAM) y sus periféricos.</em>
+</p>
 
 ---
 
 ## 2.- Características principales
-* [cite_start]**Función de salida:** Su objetivo es extraer información hacia el exterior del ordenador[cite: 28].
-* [cite_start]**Interfaz visual:** Permite al usuario ver los resultados del procesamiento de la CPU[cite: 24].
-* [cite_start]**Conectividad:** Se comunica con el núcleo mediante la unidad de entrada/salida[cite: 17, 21].
-* [cite_start]**Independencia:** No forma parte del núcleo fundamental (CPU+RAM)[cite: 20, 24].
+* **Extracción de información:** Su función primordial es mostrar datos hacia el exterior.
+* **Interfaz Visual:** Es el puente de comunicación visual entre el ordenador y el usuario.
+* **Conectividad:** Se conecta a la placa base mediante puertos específicos (HDMI, DisplayPort, VGA).
+* **Independencia del núcleo:** Aunque es esencial para el uso humano, no forma parte de la CPU ni de la memoria RAM.
 
 ---
 
 ## 3.- Tipos
-[cite_start]Según la clasificación de periféricos, el monitor se sitúa principalmente en la categoría de **Salida**[cite: 31, 32]:
+Según la clasificación técnica de periféricos, el monitor se organiza de la siguiente manera:
 
-1.  [cite_start]**Monitores de Salida:** Pantallas estándar de cristal líquido (LCD/LED)[cite: 32].
-2.  [cite_start]**Monitores de Entrada/Salida (E/S):** Las **pantallas táctiles**, que permiten tanto visualizar datos como introducirlos[cite: 29, 32].
-3.  [cite_start]**Dispositivos relacionados:** Otros periféricos de salida similares son el proyector y el plotter[cite: 32].
+* **Periférico de Salida:** El monitor estándar (LED, LCD, OLED).
+* **Periférico de Entrada/Salida (E/S):** Los monitores con **pantalla táctil**, que permiten introducir datos y verlos simultáneamente.
 
-
-
-[Image of computer peripheral classification]
-
+<p align="center">
+  <img src="https://i.ibb.co/X3p9qXN/perifericos-mapa.png" width="500" alt="Clasificación Periféricos">
+</p>
 
 ---
 
 ## 4.- Ejemplos comerciales
-* **Monitor Gaming (Salida):** *Samsung Odyssey G5*. Destaca por su alta tasa de refresco (144Hz) para imágenes fluidas.
-* **Monitor Profesional (Salida):** *ASUS ProArt*. Calibrado de fábrica para diseñadores que necesitan colores exactos.
-* **Monitor Táctil (E/S):** *Microsoft Surface Studio*. Permite interactuar con los dedos o un lápiz óptico directamente sobre la pantalla.
+
+| Modelo | Imagen | Características Principales |
+| :--- | :---: | :--- |
+| **Samsung Odyssey G5** | <img src="https://m.media-amazon.com/images/I/81S7V-LOD2L._AC_SL1500_.jpg" width="100"> | Monitor Gaming de 27", resolución 2K (QHD) y 144Hz de refresco. |
+| **Dell UltraSharp 4K** | <img src="https://m.media-amazon.com/images/I/719FvU-Vl1L._AC_SL1500_.jpg" width="100"> | Monitor profesional de 32", resolución 4K UHD y precisión de color para diseño. |
 
 ---
 
 ## 5.- Conclusiones
-[cite_start]Los periféricos son piezas clave para que el núcleo central (CPU y RAM) sea útil para el usuario[cite: 20]. El monitor es el periférico de salida más importante, ya que sin él no podríamos recibir visualmente la información procesada.
+Los periféricos permiten que la potencia de cálculo del ordenador (CPU) sea accesible para nosotros. El monitor es la pieza clave para recibir esa información de forma instantánea y comprensible, evolucionando desde simples pantallas de texto hasta los complejos paneles táctiles de alta definición actuales.
 
 ---
 
 ### Referencias
-* [cite_start]**Material de clase:** *Ud 7.- Los periféricos*, Departamento de Informática, IES Rodrigo Caro.
-* **Autor original:** Manuel Fco. [cite_start]Domínguez Tienda[cite: 1].
-* [cite_start]**Definiciones:** Wikipedia, citada en el material de clase[cite: 23].
+* [cite_start]Material didáctico: **Fundamentos de Hardware (Ud 7 - Los periféricos)**. [cite: 1, 6]
+* Autor de la fuente: **Manuel Fco. [cite_start]Domínguez Tienda**. [cite: 1]
+* Definiciones técnicas basadas en la **Arquitectura de Von Neumann**. [cite: 21, 24]
 
-### Licencia e Autoría
-* **Autor:** [TU NOMBRE AQUÍ]
-* **Licencia:** Este proyecto se distribuye bajo la licencia **MIT**.
-* [cite_start]**Centro:** IES Rodrigo Caro[cite: 1].
+### Licencia
+Este trabajo está bajo la licencia **MIT**.
+
+### Autores
+* **Realizado por:** [Tu Nombre y Apellidos]
+* **Curso:** 1º Sistemas Informáticos / DAW / DAM
+* **Centro:** IES Rodrigo Caro
