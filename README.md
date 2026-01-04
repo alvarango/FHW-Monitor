@@ -37,11 +37,11 @@ Según la clasificación de periféricos, el monitor se divide en:
 
 ## 4.- Ejemplos comerciales
 
-| Modelo | Características Técnicas | Categoría |
-| :--- | :--- | :--- |
-| **Samsung Odyssey G5** | Pantalla de 27 pulgadas, resolución 2K y 144Hz de refresco. Diseñado para alta fluidez. | Salida |
-| **Dell UltraSharp 4K** | Panel profesional de 32 pulgadas con resolución Ultra HD. Gran precisión de color. | Salida |
-| **Microsoft Surface Studio** | Pantalla táctil interactiva de alta resolución con soporte para lápiz óptico. | Entrada/Salida (E/S) |
+| Modelo | Imagen | Características Técnicas | Categoría |
+| :--- | :---: | :--- | :--- |
+| **Samsung Odyssey G5** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Computer_monitor_gaming.jpg/200px-Computer_monitor_gaming.jpg" width="120"> | Pantalla de 27 pulgadas, resolución 2K y 144Hz de refresco. Diseñado para alta fluidez. | Salida |
+| **Dell UltraSharp 4K** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dell_Monitor.jpg/200px-Dell_Monitor.jpg" width="120"> | Panel profesional de 32 pulgadas con resolución Ultra HD. Gran precisión de color. | Salida |
+| **Microsoft Surface Studio** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Microsoft_Surface_Studio_2.jpg/200px-Microsoft_Surface_Studio_2.jpg" width="120"> | Pantalla táctil interactiva de alta resolución con soporte para lápiz óptico. | Entrada/Salida (E/S) |
 
 ---
 
