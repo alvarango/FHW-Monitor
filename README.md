@@ -39,9 +39,9 @@ Según la clasificación de periféricos, el monitor se divide en:
 
 | Modelo | Imagen | Características Técnicas | Categoría |
 | :--- | :---: | :--- | :--- |
-| **Samsung Odyssey G5** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Computer_monitor_gaming.jpg/200px-Computer_monitor_gaming.jpg" width="120"> | Pantalla de 27 pulgadas, resolución 2K y 144Hz de refresco. Diseñado para alta fluidez. | Salida |
-| **Dell UltraSharp 4K** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dell_Monitor.jpg/200px-Dell_Monitor.jpg" width="120"> | Panel profesional de 32 pulgadas con resolución Ultra HD. Gran precisión de color. | Salida |
-| **Microsoft Surface Studio** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Microsoft_Surface_Studio_2.jpg/200px-Microsoft_Surface_Studio_2.jpg" width="120"> | Pantalla táctil interactiva de alta resolución con soporte para lápiz óptico. | Entrada/Salida (E/S) |
+| **Samsung Odyssey** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Samsung_Odyssey_G7.jpg/300px-Samsung_Odyssey_G7.jpg" width="120"> | Pantalla curva con alta tasa de refresco. Diseñado para alta fluidez de imagen. | Salida |
+| **Dell UltraSharp** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Dell_P2715Q_monitor.jpg/300px-Dell_P2715Q_monitor.jpg" width="120"> | Panel profesional de alta resolución con gran precisión de color. | Salida |
+| **Microsoft Surface** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Microsoft_Surface_Studio_2016.jpg/300px-Microsoft_Surface_Studio_2016.jpg" width="120"> | Pantalla táctil interactiva de alta resolución con soporte para lápiz óptico. | Entrada/Salida (E/S) |
 
 ---
 
@@ -52,7 +52,7 @@ Los periféricos son piezas clave para que el núcleo del ordenador (CPU y RAM) 
 
 ## Bibliografía y Referencias
 * **Información técnica:** Basada en la arquitectura de computadores de Von Neumann.
-* **Imágenes:** Enlaces externos de Wikimedia Commons y catálogos comerciales.
+* **Imágenes:** Enlaces externos de Wikimedia Commons.
 
 ## Licencia
 Este proyecto se distribuye bajo la licencia **MIT**.
